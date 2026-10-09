@@ -1,0 +1,15 @@
+# Utility recommendation: pilot feedback, not appliance billing
+
+**Decision:** use this prototype only in a consent-based, monitored household energy-feedback pilot. It estimates washing-machine consumption from aggregate power at one-minute resolution. The chronological/unseen-house tests show useful energy capture, but modest minute-level detection and uneven per-home errors. Do not use it to bill appliance consumption, automatically operate devices, or assert fault/inefficiency.
+
+**Suitable uses:** indicative washing-energy trends on adequately observed days; identifying households that may benefit from a conversation about wash settings; aggregate programme evaluation with uncertainty and coverage shown. Only disclose estimates at suitable aggregation levels and clearly label them as inferred.
+
+**One energy-saving opportunity:** offer a low-temperature/eco-wash coaching trial to participating homes with frequent high-energy detected events. The measured cycle-energy dispersion and observed heating peaks motivate a **testable hypothesis**, not proof that a specific household wastes energy. Ask about garment care and hygiene requirements, programme choice and full loads before suggesting a change. Do not infer wash temperature from power alone.
+
+**Measure impact:** collect at least 2–4 weeks of reliable washer submeters plus aggregate readings before and after (or randomized encouragement/control). Record programme, temperature, laundry load, cycle counts and household occupancy. Compare kWh per comparable load/cycle and weekly laundry energy with confidence intervals, matched monitoring coverage and a control group; track participation, false alerts and satisfaction. Change in inferred NILM energy alone is not enough to establish savings. No numerical savings promise is supported by this observational dataset.
+
+**Limits:** REFIT is a small 2013–2015 UK sample, with forward-filled labels, monitor changes, outages, inconsistent totals and overlapping appliance signatures. Home-to-home cycle energy is confounded by appliance and behaviour. One-minute means lose short transitions; 15/30-minute readings further merge phases and reduce identifiability. Re-averaging these model predictions is only a smoothing study, not validation on coarse meters.
+
+**Before India rollout:** collect consented Indian aggregate and washer submeter data covering voltage variation, local top/front-loading models, cold-water usage, programme diversity, occupancy and seasonal patterns. Validate across entirely held-out homes and 1/15/30-minute input resolutions. Obtain fresh-label/monitor health flags, device-change logs, complete meter coverage and tariff context. Demonstrate actionable household-level accuracy and calibrated uncertainty before scaling. Do not transfer UK thresholds or economic savings directly.
+
+**Next investment:** stronger label freshness checks; multiple held-out households and seasons; a causal/trailing-window comparison if timely alerts are needed; targeted sequence-model benchmark. Establish an abstention policy for missing context and low confidence, and monitor drift/false positives in the pilot.

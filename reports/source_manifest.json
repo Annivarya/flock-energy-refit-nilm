@@ -1,0 +1,26 @@
+[
+  {
+    "file": "raw.7z",
+    "url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090177/REFIT_RAW_081116.7z",
+    "bytes": 698108465,
+    "sha256": "f294fe673532220dc527b5e7d7a25e99568bd24acf9fb5be0a0def14af64b2cf"
+  },
+  {
+    "file": "cleaned.7z",
+    "url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+    "bytes": 514265481,
+    "sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b"
+  },
+  {
+    "file": "RAW_READ_ME.txt",
+    "url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090176/RAW_READ_ME_081116.txt",
+    "bytes": 11098,
+    "sha256": "6b20b821a36af681e460bde5d24b933aa58e191c4c3f8de05218941e6d34937d"
+  },
+  {
+    "file": "CLEAN_READ_ME.txt",
+    "url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090183/CLEAN_READ_ME_081116.txt",
+    "bytes": 12020,
+    "sha256": "c5f5236fd5a7b29771913480fcef6e9be8a85d07511939c5a35160b7afc97bfb"
+  }
+]
