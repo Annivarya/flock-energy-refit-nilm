@@ -1,0 +1,15 @@
+data/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+reports/model.joblib
+reports/predictions.csv.gz
+*.log
+
+# Detailed household activity records are reproducible local outputs.
+reports/cycles.csv
+reports/raw_outages.csv
+reports/daily_energy.csv
+reports/worst_days.csv
+reports/time_buckets.csv
